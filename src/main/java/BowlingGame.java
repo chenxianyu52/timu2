@@ -6,7 +6,7 @@ import java.util.Map;
 public class BowlingGame {
 
     public int getBowlingScore(String bowlingCode) {
-        Map<Character,Integer> mp = new HashMap<>();
+        Map<Character,Integer> mp = new HashMap<Character,Integer>();
         mp.put('-',0);
         mp.put('1',1);
         mp.put('2',2);
