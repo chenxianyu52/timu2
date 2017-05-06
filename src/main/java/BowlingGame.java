@@ -21,7 +21,6 @@ public class BowlingGame {
         int sum=0;
         String p[]=bowlingCode.split("\\|");
         int len = p.length;
-        List<String> t = new ArrayList<>();
         if(p.length>10){
             p[10]=p[11];
             len--;
